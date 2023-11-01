@@ -1,6 +1,6 @@
 package etf.unsa.ba.rpr;
 
-public class MobilniBroj implements TelefonskiBroj{
+public class MobilniBroj extends TelefonskiBroj{
 
     private int mobilnaMreza;
     private String broj;
@@ -12,8 +12,7 @@ public class MobilniBroj implements TelefonskiBroj{
 
     @Override
     public String ispisi() {
-        Object o = mobilnaMreza;
-        return new String("0"+(String)o + "/"+broj);
+        return
     }
 
     @Override
