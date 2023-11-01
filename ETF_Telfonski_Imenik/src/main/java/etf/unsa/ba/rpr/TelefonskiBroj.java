@@ -1,6 +1,6 @@
 package etf.unsa.ba.rpr;
 
-public interface TelefonskiBroj {
-    public String ispisi();
-    int hasCode();
+public abstract class TelefonskiBroj {
+    public abstract String ispisi();
+    public abstract int hasCode();
 }
