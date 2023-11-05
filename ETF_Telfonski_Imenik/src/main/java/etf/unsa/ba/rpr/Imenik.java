@@ -1,6 +1,5 @@
 package etf.unsa.ba.rpr;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class Imenik {
     HashMap<String,TelefonskiBroj> imenik;
@@ -29,5 +28,32 @@ public class Imenik {
             }
         }
         return spisak;
+    }
+    public Set<String> izGrada(Grad g){
+        Set<String> imena = null;
+        TreeSet<String> slozeni = null;
+        for(Map.Entry<String,TelefonskiBroj> pretrazivac : imenik.entrySet()){
+            String s = pretrazivac.getValue().ispisi();
+            String sub = s.substring(0,4);
+            if(sub.equals(g)){
+                slozeni.add(pretrazivac.getKey());
+            }
+        }
+        imena = slozeni;
+        return  imena;
+    }
+
+    public Set<TelefonskiBroj> izGradaBrojevi(Grad g){
+        Set<TelefonskiBroj> brojevi = null;
+        TreeSet<TelefonskiBroj> slozeni = null;
+        for(Map.Entry<String,TelefonskiBroj> pretrazivac : imenik.entrySet()){
+            String s = pretrazivac.getValue().ispisi();
+            String sub = s.substring(0,4);
+            if(sub.equals(g)){
+                slozeni.add(pretrazivac.getValue());
+            }
+        }
+        brojevi = slozeni;
+        return brojevi;
     }
 }
