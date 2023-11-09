@@ -1,4 +1,5 @@
 package etf.unsa.ba.rpr;
+import java.util.Objects;
 
 public class MobilniBroj extends TelefonskiBroj{
 
@@ -12,11 +13,12 @@ public class MobilniBroj extends TelefonskiBroj{
 
     @Override
     public String ispisi() {
-        return ("0"+mobilnaMreza+"-"+broj);
+        if(broj!=null) return "+"+mobilnaMreza+"/"+broj;
+        return null;
     }
 
     @Override
     public int hasCode() {
-        return 0;
+        return Objects.hash(mobilnaMreza,broj);
     }
 }

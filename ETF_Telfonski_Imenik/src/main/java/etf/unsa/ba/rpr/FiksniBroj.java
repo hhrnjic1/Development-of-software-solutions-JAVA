@@ -1,4 +1,5 @@
 package etf.unsa.ba.rpr;
+import java.util.Objects;
 
 public class FiksniBroj  extends TelefonskiBroj {
     private Grad grad;
@@ -8,11 +9,19 @@ public class FiksniBroj  extends TelefonskiBroj {
         grad = grad1;
         broj = broj1;
     }
+    public Grad getGrad() {
+        return grad;
+    }
+
+    public String getBroj() {
+        return broj;
+    }
     public String ispisi() {
-        return grad + "/" + broj;
+        if(grad!=null && broj!=null) return grad.getPozivniBroj()+"/"+broj;
+        return null;
     }
     @Override
     public int hasCode() {
-        return 0;
+        return Objects.hash(grad,broj);
     }
 }

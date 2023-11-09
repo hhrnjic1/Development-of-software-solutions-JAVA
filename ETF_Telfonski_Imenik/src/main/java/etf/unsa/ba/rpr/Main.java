@@ -1,11 +1,11 @@
 package etf.unsa.ba.rpr;
-
+import java.util.*;
 import java.util.Set;
 
 public class Main {
 
     public static void main(String[] args) {
-        Imenik imenik = null;
+        Imenik imenik = new Imenik();
         Grad grad1 = Grad.SARAJEVO;
         Grad grad2 = Grad.ZENICA;
         Grad grad3 = Grad.TUZLA;

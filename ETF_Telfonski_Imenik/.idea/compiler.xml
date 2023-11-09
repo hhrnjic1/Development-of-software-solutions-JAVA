@@ -9,5 +9,8 @@
         <module name="ETF_Telfonski_Imenik" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ETF_Telfonski_Imenik" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

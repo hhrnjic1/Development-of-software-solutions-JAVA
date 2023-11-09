@@ -1,4 +1,5 @@
 package etf.unsa.ba.rpr;
+import java.util.Objects;
 
 public class MedunarodniBroj extends TelefonskiBroj{
     private String drzava;
@@ -10,11 +11,12 @@ public class MedunarodniBroj extends TelefonskiBroj{
     }
     @Override
     public String ispisi() {
-        return drzava+"-"+broj;
+        if(drzava!=null && broj!=null) return drzava+broj;
+        return null;
     }
 
     @Override
     public int hasCode() {
-        return 0;
+        return Objects.hash(drzava,broj);
     }
 }

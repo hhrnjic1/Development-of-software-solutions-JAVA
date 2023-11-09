@@ -1,27 +1,48 @@
 package etf.unsa.ba.rpr;
 
 public enum Grad {
-    SARAJEVO("033"), TUZLA("032"), ZENICA("034"), LIVNO("034"), MOSTAR("036"), BIHAC("037");
-    private String grad;
-<<<<<<< HEAD
-    Grad(String grad){
-        this.grad = grad;
+    TRAVNIK("030"),
+    ODZAK("031"),
+    ZENICA("032"),
+    SARAJEVO("033"),
+    LIVNO("034"),
+    TUZLA("035"),
+    MOSTAR("036"),
+    BIHAC("037"),
+    GORAZDE("038"),
+    POSUSJE("039"),
+    BRCKO("049"),
+    MRKONJIC_GRAD("050"),
+    BANJA_LUKA("051"),
+    PRIJEDOR("052"),
+    DOBOJ("053"),
+    SAMAC("054"),
+    BIJELJINA("055"),
+    ZVORNIK("056"),
+    PALE("057"),
+    FOCA("058"),
+    TREBINJE("059");
+
+    private String pozivniBroj;
+
+    /** Konstruktor enumeratora */
+    Grad(String pozivniBroj)
+    {
+        this.pozivniBroj=pozivniBroj;
     }
-    @Override
-    public String toString(){
-        return grad;
+
+    /** Geter enumeratora */
+    public String getPozivniBroj() {
+        return pozivniBroj;
     }
+
+    /** Utiliti metoda za dobivanje konstante na osnovu prosljedenog broja */
+    public static Grad izPozivnog(String pozivni)
+    {
+        for(Grad g:Grad.values())
+            if(g.getPozivniBroj().equals(pozivni)){ return g; }
+        return null;
+    }
+
 }
 
-=======
-
-    Grad(String grad){
-        this.grad = grad;
-    }
-
-    @Override
-    public String toString() {
-        return grad;
-    }
-}
->>>>>>> 81b6f85742f08309472cbe7fedf7ab0361fb97ea
