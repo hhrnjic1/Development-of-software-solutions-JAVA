@@ -8,6 +8,7 @@ public class FiksniBroj  extends TelefonskiBroj {
     FiksniBroj(Grad grad1, String broj1){
         grad = grad1;
         broj = broj1;
+        if(grad==null) throw new BrojException("Pozivni broj za fiksni telefon nije OK");
     }
     public Grad getGrad() {
         return grad;
