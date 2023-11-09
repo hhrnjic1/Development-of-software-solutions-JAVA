@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4255df3a-ed6d-4a9b-b5ca-8b9c5ed08527" name="Changes" comment="...">
+      <change afterPath="$PROJECT_DIR$/../ETF_Telefonski_imenik2/ETF_Telefonski_imenik2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ETF_Telfonski_Imenik.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/etf/unsa/ba/rpr/FiksniBroj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/etf/unsa/ba/rpr/FiksniBroj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/etf/unsa/ba/rpr/Grad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/etf/unsa/ba/rpr/Grad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/etf/unsa/ba/rpr/Imenik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/etf/unsa/ba/rpr/Imenik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/etf/unsa/ba/rpr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/etf/unsa/ba/rpr/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/etf/unsa/ba/rpr/MedunarodniBroj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/etf/unsa/ba/rpr/MedunarodniBroj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/etf/unsa/ba/rpr/MobilniBroj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/etf/unsa/ba/rpr/MobilniBroj.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2XaI7uFBEuUMUg4ZvQSbxBDmzvy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="etf.unsa.ba.rpr.Program" />
+      <module name="ETF_Telfonski_Imenik" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4255df3a-ed6d-4a9b-b5ca-8b9c5ed08527" name="Changes" comment="" />
+      <created>1698860601728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698860601728</updated>
+    </task>
+    <task id="LOCAL-00001" summary="...">
+      <created>1698862759053</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698862759053</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
+  </component>
+</project>
