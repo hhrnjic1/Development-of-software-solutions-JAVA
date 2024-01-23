@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.predispitnavjezbamvc.HelloController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Izaberi knjigu:">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Autor:" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Naslov:" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="ISBN:" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <ChoiceBox fx:id="choiceBox" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#promjenaKnjige" GridPane.columnIndex="1">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </ChoiceBox>
+      <TextField fx:id="fldAutor" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="fldNaslov" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="fldIsbn" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </TextField>
+      <Button mnemonicParsing="false" onAction="#ispisiSveKnjige" text="Ispisi" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Button>
+   </children>
+</GridPane>
